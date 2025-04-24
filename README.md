@@ -121,7 +121,6 @@ urlpatterns = [
 # SERVER SIDE PROCESSING:
 ![alt text](<tarun/mathapp/templates/mathapp/Screenshot 2025-04-24 093057.png>)
 # HOMEPAGE:
-![alt text](<tarun/mathapp/templates/Screenshot 2025-04-15 134120.png>)
 ![alt text](<tarun/mathapp/templates/mathapp/Screenshot 2025-04-24 091243.png>)
 
 # RESULT:
