@@ -37,16 +37,18 @@
     </style>
 </head>
 <body>
-    <h1 align="center">CALCULATING POWER OF A LAMP</h1>
-    <form action="{% url 'home' %}" method="post">
+    <h1 align="center">Calculating Power of a Lamp</h1>
+    <form action="{% url 'home' %}" method="POST">
         {% csrf_token %}
-        intensity:
-        <input type="text" name="intensity-input"> <br>
-        resistance:
-        <input type="text" name="resistance-input"> <br>
-        <button type="submit">calculate</button>
-        <p align="center">power of the lamp is:{{output}}</p>
+
+        Intensity:
+        <input type ="text" name = "intensity-input"><br>
+
+        Resistance:
+        <input type="text" name="resistance-input"><br>
+
+        <button type="submit">Calculate</button>
+        <p align="center">The power of the lamp is: {{ output }}</p>
     </form>
-    
 </body>
 </html>
